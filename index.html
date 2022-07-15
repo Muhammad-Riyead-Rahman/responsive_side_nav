@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+  <!--  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Responsive sidebar submenus</title>
+</head>
+
+<body>
+  <!--========== HEADER ==========-->
+  <header class="header">
+    <div class="header_container">
+      <div class="none"> </div>
+      <div class="search">
+        <input type="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+
+      <div class="user">
+        <div class="icon">
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-solid fa-grip"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <div class="img">
+          <img src="images/logo.png" />
+        </div>
+      </div>
+
+      <div class="toggle">
+        <i class="fa-solid fa-bars" id="header-toggle"></i>
+      </div>
+    </div>
+  </header>
+
+  <!--========== NAV ==========-->
+  <section class="nav" id="navbar">
+    <nav class="nav_container">
+      <div>
+        <a href="#" class="nav_link nav_logo">
+          <i class="fa-solid fa-bars nav_icon"></i>
+          <span class="logo_name">
+            <i class="fab fa-youtube"></i>
+            Youtube
+          </span>
+        </a>
+
+        <div class="nav_list">
+          <div class="nav_items navtop">
+            <a href="#" class="nav_link active">
+              <i class="fa fa-house nav_icon"></i>
+              <span class="nav_name">Home</span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa fa-compass nav_icon"></i>
+              <span class="nav_name">Explore</span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa-brands fa-tiktok nav_icon"></i>
+              <span class="nav_name">Short Video</span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-users nav_icon"></i>
+              <span class="nav_name">Channel </span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-video nav_icon"></i>
+              <span class="nav_name">Library </span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+              <span class="nav_name">History </span>
+            </a>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-thumbs-up nav_icon"></i>
+              <span class="nav_name">Like </span>
+            </a>
+
+
+
+            <div class="nav_dropdown">
+              <a href="#" class="nav_link">
+                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                <span class="nav_name">Show More </span>
+              </a>
+
+              <div class="nav_dropdown-collapse">
+                <div class="nav_dropdown-content">
+                  <a href="#" class="nav_dropdown-item">Grid Box</a>
+                  <a href="#" class="nav_dropdown-item">Frontend Design</a>
+                  <a href="#" class="nav_dropdown-item">Backend Design</a>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="nav_link">
+              <i class='bx bx-message-rounded nav_icon'></i>
+              <span class="nav_name">Messages</span>
+            </a>
+          </div>
+
+          <div class="nav_items subscribe-container">
+            <h3 class="nav_subtitle">SUBSCRIPTIONS</h3>
+
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+              <span class="nav_name">Riyead Rahman</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+              <span class="nav_name">React Master</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+              <span class="nav_name">Frontend Development</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+              <span class="nav_name">Backend Development</span>
+            </a>
+
+
+            <div class="nav_dropdown">
+              <a href="#" class="nav_link">
+                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                <span class="nav_name">Show 3 More</span>
+              </a>
+
+              <div class="nav_dropdown-collapse nav_dropdown-second">
+                <div class="nav_dropdown-content">
+                  <a href="#" class="nav_dropdown-item">
+                    <img class="subscribe"
+                      src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                    <span class="nav_name">Backend Design</span>
+                  </a>
+                  <a href="#" class="nav_dropdown-item">
+                    <img class="subscribe"
+                      src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                    <span class="nav_name">Backend Design</span>
+                  </a>
+                  <a href="#" class="nav_dropdown-item">
+                    <img class="subscribe"
+                      src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                    <span class="nav_name">Backend Design</span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </nav>
+  </section>
+
+  <!--========== CONTENTS ==========-->
+  <main>
+    <section>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi perspiciatis, ut ipsum accusantium,
+        maiores dolorem quas unde nam perferendis harum illum asperiores amet nesciunt ea eveniet possimus enim odit
+        omnis mollitia. Voluptate minima odit esse recusandae aliquid suscipit numquam necessitatibus enim fuga debitis
+        dicta, unde adipisci nulla aperiam, repellat placeat laboriosam, voluptas animi ipsa? Quam voluptatem, sint et
+        dolores necessitatibus eveniet magnam nobis eligendi accusamus aliquid nihil adipisci sed ducimus eum, saepe,
+        quis aut nostrum hic? Soluta, eius. Sunt fugiat aperiam qui tempora dolores placeat pariatur architecto facere
+        ab doloribus asperiores facilis officiis quas inventore temporibus vero fugit harum autem, quod, quasi velit!
+        Nam dolores autem qui et fugiat suscipit quam maiores in quisquam? Officiis incidunt asperiores est inventore
+        molestiae, ex atque, perferendis totam nam in quam magni itaque eveniet molestias omnis voluptatum error optio
+        odit. Fuga cum doloribus molestiae possimus eligendi quas? Repellat fugiat beatae fugit veritatis velit cum
+        officiis inventore sequi quos atque eos quasi soluta ad reiciendis expedita omnis sint cupiditate quibusdam sunt
+        nihil, ut eius error, vero corrupti. Iure cupiditate assumenda eaque laborum nostrum rem harum hic ipsa vel non
+        temporibus numquam iste unde quis soluta fuga earum veritatis, perspiciatis facilis iusto commodi. Autem,
+        distinctio molestias ex quam accusantium culpa? Praesentium eveniet hic cupiditate et ratione nisi impedit,
+        nihil ducimus odit provident nam earum eaque voluptatum autem aut labore sit iste laboriosam fugit sapiente
+        tenetur unde deserunt vel blanditiis! Molestiae ab soluta nobis, temporibus expedita maiores quod quia, vel eum
+        vero officiis explicabo unde totam itaque facere quidem! Quaerat nihil iure quidem quae saepe est sequi ullam?
+        Quisquam accusantium aperiam voluptatem, ullam, iusto, distinctio sint eaque sequi quidem ea blanditiis facere?
+        Sapiente nobis ab velit beatae inventore voluptatem, vitae, magnam tenetur quae, ullam at mollitia praesentium
+        porro. Tenetur, quidem. Officia numquam tempora iusto vel eum atque quos repellat, expedita autem exercitationem
+        tempore ipsam repudiandae facilis esse voluptatem nemo at velit mollitia hic. A rerum alias optio animi, harum
+        quibusdam soluta molestias quam aspernatur id nam illum distinctio quia magni perspiciatis ratione modi! Cumque
+        corporis tempore fugit dolore, eius consectetur dolorem eos autem. Nihil libero iste ullam, recusandae numquam
+        inventore temporibus expedita commodi voluptate minima porro animi quo, delectus consequuntur laborum suscipit
+        illo accusantium dolores ex sint explicabo officia velit dicta. Est ducimus sit voluptatum laudantium dolore
+        cumque consequuntur iure, natus accusamus ratione eos perferendis odio rem minus voluptas quam? Expedita
+        deleniti eligendi ipsa nisi animi atque repudiandae necessitatibus, eos, quo recusandae veniam. Reiciendis ex
+        laudantium nemo iste nam quas veritatis numquam facere, architecto suscipit id deleniti eos minus. Placeat
+        totam, facilis dolorum beatae provident nostrum nam earum, cupiditate atque minus libero. Quae et commodi, vero,
+        esse ut rerum eveniet laborum provident praesentium odio explicabo sint blanditiis, quas impedit ducimus
+        expedita aspernatur dolorum autem accusamus ipsa fugit? Nihil nulla sunt ipsum debitis placeat optio dolores!
+        Quam ea beatae atque, vel voluptate blanditiis? Repellat ducimus aliquam, placeat nihil nisi enim accusamus?
+        Delectus qui cupiditate reiciendis amet, animi ea dolorum exercitationem omnis? Vitae molestias molestiae
+        corrupti assumenda labore.</p>
+    </section>
+  </main>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
